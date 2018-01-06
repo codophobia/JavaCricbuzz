@@ -43,7 +43,7 @@ System.out.println(json);
 
 <b>Get commentary of a match</b>
 
-```python
+```java
 Map<String,Map> comm = c.commentary(id);
 json = gson.toJson(comm);
 System.out.println(json);
