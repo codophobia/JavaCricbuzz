@@ -1,4 +1,4 @@
-# jcricbuzz-java-cricket-api
+# JavaCricbuzz
 
 # <b>Cricbuzz for JAVA</b>
 A Java interface to cricbuzz, with options to get live scores and live commentary.
