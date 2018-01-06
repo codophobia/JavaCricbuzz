@@ -9,6 +9,8 @@ You can find detailed explaination here: <a href = "https://cricstatshub.com/201
 
 jsoup library: https://jsoup.org/download
 
+<b>One can also directly download the jar file which conatins all the dependencies packed: <a href="https://drive.google.com/open?id=1T-nWER9LmfLPatJbn5gKfvKaJe6qEnZ2">Cricbuzz.jar</a></b>
+
 <b>Features</b>
 <ul>
 <li>Get upcoming, live and recently concluded matches</li>
@@ -26,7 +28,7 @@ Cricbuzz c = new Cricbuzz();
 
 ```java
 Vector<HashMap<String,String>> matches = c.matches();
-Gson gson = new GsonBuilder().setPrettyPrinting().create();
+Gson gson = new GsonBuilder().setPrettyPrinting().create(); #Add gson library in case you want a pretty output
 String json = gson.toJson(matches);
 System.out.println(json);
 ```
