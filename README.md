@@ -3,7 +3,7 @@
 # <b>Cricbuzz for JAVA</b>
 A Java interface to cricbuzz, with options to get live scores and live commentary.
 
-You can find detailed explaination here: <a href = "https://cricstatshub.com/2017/12/03/cricket-api-for-python/">pycricbuzz blog</a>
+You can find detailed explaination here: <a href = "https://cricstatshub.com/2018/01/06/cricket-api-for-java/">javacricbuzz blog</a>
 
 <b>Requirements</b>
 
